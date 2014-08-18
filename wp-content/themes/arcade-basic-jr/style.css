@@ -1,10 +1,13 @@
 /*
-Theme Name:	Arcade Basic Jr - Child theme
-Theme URI:	
-Description:	A awesome child theme for Arcade Basic
-Author:		Lucas Lima
-Author URI:	http://www.lucaslima.blog.br
-Template:	arcade-basic
-Version:	0.1
+ Theme Name:   arcade-basic-child
+ Theme URI:    https://themes.bavotasan.com/2014/arcade/
+ Description:  arcade-basic-child Theme
+ Author:       N/A
+ Author URI:   http://example.com
+ Template:     arcade-basic
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  arcade-basic-child
 */
+
 @import url("../arcade-basic/style.css");
