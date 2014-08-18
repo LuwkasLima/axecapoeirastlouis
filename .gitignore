@@ -1,0 +1,8 @@
+# WordPress
+.htaccess
+wp-config.php
+wp-config-master.php
+wp-content/uploads
+wp-content/upgrade
+sitemap*
+*.*~
