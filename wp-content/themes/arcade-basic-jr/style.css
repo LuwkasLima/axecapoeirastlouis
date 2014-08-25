@@ -12,8 +12,14 @@
 
 @import url("../arcade-basic/style.css");
 
+/*Changes in Footer*/
 #footer {
 	border-top: 3px solid #397E45;
 	background: none repeat scroll 0% 0% #38397C;
 	color: #FFFCFC;
+    }
+
+/*Changes in Header area of the website*/
+#site-meta {
+    border-bottom: 3px solid #397E45;
     }
