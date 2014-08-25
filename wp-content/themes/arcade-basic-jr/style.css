@@ -12,14 +12,30 @@
 
 @import url("../arcade-basic/style.css");
 
-/*Changes in Footer*/
+
+/**
+ * Changes in Header area of the website
+ *
+ * @since 1.0
+ */
+#site-meta {
+    border-bottom: 3px solid #397E45;
+    }
+ #more-site {
+    border: 2px solid #FBDF3E;
+    color: #FBDF3E;
+    }
+.basic #site-title a {
+    font-family: "Permanent Marker",cursive;
+}
+
+/**
+ * Changes in Footer
+ *
+ * @since 1.0
+ */
 #footer {
 	border-top: 3px solid #397E45;
 	background: none repeat scroll 0% 0% #38397C;
 	color: #FFFCFC;
-    }
-
-/*Changes in Header area of the website*/
-#site-meta {
-    border-bottom: 3px solid #397E45;
     }
