@@ -18,17 +18,30 @@
  *
  * @since 1.0
  */
+
+/*Green border on the top header*/
 #site-meta {
     border-bottom: 3px solid #397E45;
     }
+/*Changes on the button 'see more'*/ 
  #more-site {
     border: 2px solid #FBDF3E;
     color: #FBDF3E;
     }
+#more-site:hover {
+    background: none repeat scroll 0% 0% rgba(56, 57, 124, 0.37);
+    border-color: #FBDF3E;
+    color: #FFF;
+}
+/*New font style for site title*/    
 .basic #site-title a {
     font-family: "Permanent Marker",cursive;
 }
 
+#site-description {
+    font-size: 30px;
+    font-family: Permanent Marker;
+}
 /**
  * Changes in Footer
  *
