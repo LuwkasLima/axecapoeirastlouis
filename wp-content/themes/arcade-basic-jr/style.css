@@ -12,7 +12,6 @@
 
 @import url("../arcade-basic/style.css");
 
-
 /**
  * Changes in Header area of the website
  *
@@ -52,3 +51,15 @@
 	background: none repeat scroll 0% 0% #2A005F;
 	color: #FFFCFC;
     }
+ /*Changes on the Icon of the Footer*/
+ #footer .fa-file-text {
+	transform: rotate(-5deg);
+	font-size: 22px;
+	position: absolute;
+	left: -35px;
+	top: -2px;
+}
+/*Changes on the link at Footer*/
+#footer .copyright a {
+    color: #FFFCFC;
+}
