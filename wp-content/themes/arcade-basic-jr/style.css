@@ -53,11 +53,11 @@
 	font-family: "Permanent Marker",cursive;
     }
  /*Changes on the Icon of the Footer*/
- #footer .fa-file-text {
-	transform: rotate(-5deg);
-	font-size: 22px;
+ #footer .fa-male {
+	transform: rotate(-10deg);
+	font-size: 25px;
 	position: absolute;
-	left: -35px;
+	left: -25px;
 	top: -2px;
 }
 /*Changes on the link at Footer*/
