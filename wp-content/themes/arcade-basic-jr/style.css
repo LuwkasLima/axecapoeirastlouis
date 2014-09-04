@@ -84,10 +84,27 @@
 
 /*Changes color of the Menu*/
 .navbar-inverse {
-	background: none repeat scroll 0% 0% rgba(255, 200, 21, 0.82);
+	background: none repeat scroll 0% 0% #FFC815;
 	border-bottom: 3px solid #02843D;
 }
 /*Changes color of the Menu on pages*/
 .navbar-inverse.black {
-    background: none repeat scroll 0% 0% rgba(255, 200, 21, 0.82);
+    background: none repeat scroll 0% 0% #FFC815;
+}
+/*Change color of the links in Menu*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #2A005F;
+	font-family: "Permanent Marker",cursive;
+	font-size: 18px;
+}
+/*Changes color of the selected menu item*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #02843D;
+}
+/*Changes color of the menu item on "hover" */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: #02843D;
 }
