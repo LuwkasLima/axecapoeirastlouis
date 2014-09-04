@@ -23,7 +23,7 @@
     border-bottom: 3px solid #02843D;
     }
 /*Changes on the button 'see more'*/ 
- #more-site {
+#more-site {
     border: 2px solid #FBDF3E;
     color: #FBDF3E;
     }
@@ -50,16 +50,26 @@
 	border-top: 3px solid #02843D;
 	background: none repeat scroll 0% 0% #2A005F;
 	color: #FFFCFC;
+	font-family: "Permanent Marker",cursive;
     }
  /*Changes on the Icon of the Footer*/
- #footer .fa-file-text {
-	transform: rotate(-5deg);
-	font-size: 22px;
+ #footer .fa-male {
+	transform: rotate(-10deg);
+	font-size: 23px;
 	position: absolute;
-	left: -35px;
+	left: -28px;
 	top: -2px;
 }
 /*Changes on the link at Footer*/
 #footer .copyright a {
     color: #FFFCFC;
+}
+/*Footer Logo stylesheet*/
+.image_footer #footer_logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: absolute;
+	left: -55px;
+	top: -15px;
 }
