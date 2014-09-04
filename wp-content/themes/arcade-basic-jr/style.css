@@ -55,9 +55,9 @@
  /*Changes on the Icon of the Footer*/
  #footer .fa-male {
 	transform: rotate(-10deg);
-	font-size: 25px;
+	font-size: 23px;
 	position: absolute;
-	left: -25px;
+	left: -28px;
 	top: -2px;
 }
 /*Changes on the link at Footer*/
