@@ -94,7 +94,6 @@
 /*Change color of the links in Menu*/
 .navbar-inverse .navbar-nav > li > a {
     color: #FFF;
-	font-style: italic;
 	text-shadow: 1px 1px 1px #2A005F;
 	font-family: "Permanent Marker",cursive;
 	font-size: 18px;
@@ -102,10 +101,24 @@
 /*Changes color of the selected menu item*/
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: #02843D;
+    text-shadow: none;
 }
 /*Changes color of the menu item on "hover" */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #FFF;
     background-color: #02843D;
     text-shadow: none;
+}
+/*Changes on Dropdown Menu*/
+.dropdown-menu {
+    background: none repeat scroll 0% 0% #02843D;
+
+}
+/*Color when dropdown menu selected*/
+.dropdown-menu > li > a {
+    color: white;
+}
+/*Color when dropdown menu selected*/
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #2A005F;
 }
