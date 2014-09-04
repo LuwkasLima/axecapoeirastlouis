@@ -23,7 +23,7 @@
     border-bottom: 3px solid #397E45;
     }
 /*Changes on the button 'see more'*/ 
- #more-site {
+#more-site {
     border: 2px solid #FBDF3E;
     color: #FBDF3E;
     }
@@ -62,4 +62,13 @@
 /*Changes on the link at Footer*/
 #footer .copyright a {
     color: #FFFCFC;
+}
+/*Footer Logo stylesheet*/
+.image_footer #footer_logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: absolute;
+	left: -55px;
+	top: -15px;
 }
