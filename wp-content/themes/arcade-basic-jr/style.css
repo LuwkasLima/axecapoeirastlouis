@@ -121,3 +121,18 @@
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: #2A005F;
 }
+
+/**
+ * Changes in Pages
+ *
+ * @since 1.0
+ */
+
+/*Font style for Titles h1*/
+.basic h1{
+	font-family: "Permanent Marker",Raleway,sans-serif;
+}
+/*Font size for titles*/
+.basic .entry-title {
+    font-size: 42px;
+}
