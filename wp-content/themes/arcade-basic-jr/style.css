@@ -136,3 +136,25 @@
 .basic .entry-title {
     font-size: 42px;
 }
+/*Font size for title h3*/
+.basic h3{
+	font-family: "Permanent Marker",Raleway,sans-serif;
+}
+/**
+ * Changes in Home Widget
+ *
+ * @since 1.0
+ */
+/*Changing images inside the Home widget*/
+.home-widget img {
+border: 3px solid #DEDEDE;
+border-radius: 50%;
+padding: 3px;
+margin: 10px 0px;
+height: 230px;
+width: 230px;
+}
+/*Change in padding for home-widgets*/
+#home-page-widgets {
+padding: 40px 0 20px;
+}
