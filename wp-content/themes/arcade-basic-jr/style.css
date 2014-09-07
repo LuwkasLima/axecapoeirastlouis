@@ -121,6 +121,10 @@
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: #2A005F;
 }
+/*Changes color of the collapse button on hover*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: #02843D;
+}
 
 /**
  * Changes in Pages
