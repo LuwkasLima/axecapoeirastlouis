@@ -24,8 +24,8 @@
     }
 /*Changes on the button 'see more'*/ 
 #more-site {
-    border: 2px solid #FBDF3E;
-    color: #FBDF3E;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
     }
 #more-site:hover {
     background: none repeat scroll 0% 0% rgb(2,132,61);
