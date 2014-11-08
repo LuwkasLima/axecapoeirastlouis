@@ -166,6 +166,13 @@ border-top-color: #FFFFFF;
 border-bottom-color: #FFFFFF;
 }
 
+/*Changes color of the main link on the dropsdown menu*/
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+color: #ffffff;
+background-color: #02843D;
+}
+
+
 /**
  * Changes in Pages
  *
