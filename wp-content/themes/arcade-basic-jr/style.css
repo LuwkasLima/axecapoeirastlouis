@@ -122,11 +122,48 @@ border-radius: 10px;
 }
 /*Color when dropdown menu selected*/
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    background-color: #2A005F;
+background-color: #FFFFFF;
+color: rgb(2,132,61);
 }
-/*Changes color of the collapse button on hover*/
+/*Changes color of the collapse button*/
+.navbar-inverse .navbar-toggle {
+border-color: #02843D;
+border-width: 2px;
+}
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 background-color: #02843D;
+}
+
+/*Changes color of the collapsed dropdown menu*/
+.navbar-nav .open .dropdown-menu {
+background-color: #02843D;
+}
+
+/*Removes the color of the border in the collapsed menu*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: rgba(2, 132, 61, 0);
+}
+
+/*Changes color of selected option into the dorpdown collapsed menu*/
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+color: #02843D;
+background-color: #FFFFFF;
+}
+
+/*Changes color of the links inside the dropdown collaped menu*/
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+color: #FFFFFF;
+}
+
+/*Removes margin from the collapsed menu*/
+.navbar-nav {
+margin: 0px -15px;
+}
+
+/*Changes color of the small arrow of the dropdown menu to white*/
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+border-top-color: #FFFFFF;
+border-bottom-color: #FFFFFF;
 }
 
 /**
