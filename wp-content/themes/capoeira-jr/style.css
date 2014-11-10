@@ -26,6 +26,7 @@
 #more-site {
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
+	font-family: ubuntu;
     }
 #more-site:hover {
     background: none repeat scroll 0% 0% rgb(2,132,61);
@@ -37,13 +38,15 @@ border-radius: 10px;
 }
 /*New font style for site title*/    
 .basic #site-title a {
-    font-family: "Permanent Marker",cursive;
+    font-family: ubuntu,cursive;
+    font-weight: bold;
 }
 
 #site-description {
     font-size: 30px;
-    font-family: Permanent Marker;
-}
+    font-family: ubuntu;
+    font-weight: bold;
+}	
 
 /**
  * Changes in Footer
@@ -55,7 +58,8 @@ border-radius: 10px;
 	border-top: 3px solid #02843D;
 	background: none repeat scroll 0% 0% #2A005F;
 	color: #FFFCFC;
-	font-family: "Permanent Marker",cursive;
+	font-family: ubuntu,cursive;
+	font-weight: bold;
     }
  /*Changes on the Icon of the Footer*/
  #footer .fa-male {
@@ -98,8 +102,9 @@ border-radius: 10px;
 .navbar-inverse .navbar-nav > li > a {
     color: #FFF;
 	text-shadow: 1px 1px 1px #2A005F;
-	font-family: "Permanent Marker",cursive;
-	font-size: 18px;
+	font-family: ubuntu,cursive;
+	font-size: 15px;
+	font-weight: bold;
 }
 /*Changes color of the selected menu item*/
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -181,7 +186,8 @@ background-color: #02843D;
 
 /*Font style for Titles h1*/
 .basic h1{
-	font-family: "Permanent Marker",Raleway,sans-serif;
+	font-family: ubuntu,Raleway,sans-serif;
+	font-weight: bold;
 }
 /*Font size for titles*/
 .basic .entry-title {
@@ -189,7 +195,7 @@ background-color: #02843D;
 }
 /*Font size for title h3*/
 .basic h3{
-	font-family: "Permanent Marker",Raleway,sans-serif;
+	font-family: ubuntu, Raleway,sans-serif;
 }
 /**
  * Changes in Home Widget
