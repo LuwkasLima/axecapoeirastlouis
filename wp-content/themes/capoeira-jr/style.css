@@ -223,6 +223,10 @@ padding: 40px 0 20px;
  */
  
 /*Changing color in borders inside Jumbotron*/
-home-jumbotron:before, .home-jumbotron:after {
-    border-top: 3px solid #BB7D57;
+.home-jumbotron:before {
+  border-top: 3px solid #BB7D57;
+}
+
+.home-jumbotron:after {
+  border-bottom: 3px solid #BB7D57;
 }
