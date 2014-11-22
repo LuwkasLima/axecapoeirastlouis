@@ -1,7 +1,7 @@
 /*
  Theme Name:   Capoeira Jr.
  Theme URI:    https://themes.bavotasan.com/2014/arcade/
- Description:  An awesome Capoeira child theme from Arcade Basic
+ Description:  An awesome Capoeira child theme based on Arcade Basic theme
  Author:       Lucas Lima
  Author URI:   http://www.lucaslima.blog.br
  Template:     arcade-basic
@@ -11,6 +11,7 @@
 */
 
 @import url("../arcade-basic/style.css");
+
 
 /**
  * Changes in Header
@@ -48,6 +49,7 @@ border-radius: 10px;
     font-weight: bold;
 }	
 
+
 /**
  * Changes in Footer
  *
@@ -82,6 +84,7 @@ border-radius: 10px;
 	left: -55px;
 	top: -15px;
 }
+
 
 /**
  * Changes in Menu
@@ -189,14 +192,23 @@ background-color: #02843D;
 	font-family: ubuntu,Raleway,sans-serif;
 	font-weight: bold;
 }
+
 /*Font size for titles*/
 .basic .entry-title {
     font-size: 42px;
 }
+
 /*Font size for title h3*/
 .basic h3{
 	font-family: ubuntu, Raleway,sans-serif;
 }
+
+/*Article style*/
+article {
+	border-bottom: 3px solid #BB7D57;
+}
+
+
 /**
  * Changes in Home Widget
  *
@@ -204,7 +216,7 @@ background-color: #02843D;
  */
 /*Changing images inside the Home widget*/
 .home-widget img {
-border: 3px solid #DEDEDE;
+border: 3px solid #BB7D57;
 border-radius: 50%;
 padding: 3px;
 margin: 10px 0px;
@@ -226,7 +238,17 @@ padding: 40px 0 20px;
 .home-jumbotron:before {
   border-top: 3px solid #BB7D57;
 }
-
 .home-jumbotron:after {
   border-bottom: 3px solid #BB7D57;
+}
+
+/**
+ * Changes in Jumbotron
+ *
+ * @since 1.0
+ */
+
+/*Changing border color of the archive description*/
+#archive-header {
+	border: 1px solid #BB7D57;
 }
