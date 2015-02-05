@@ -7,8 +7,7 @@
  * @since 1.0.0
  */
 ?>
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-		<div id="secondary" class="widget-area" role="complementary">
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</div><!-- #secondary -->
-	<?php endif; ?>
+	<div id="secondary" <?php bavotasan_sidebar_class(); ?> role="complementary">
+		<?php if ( ! dynamic_sidebar( 'sidebar' ) ) : ?>
+		<?php endif; ?>
+	</div><!-- #secondary.widget-area -->
