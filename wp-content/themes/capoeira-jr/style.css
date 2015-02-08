@@ -259,3 +259,15 @@ padding: 40px 0 20px;
 #archive-header {
 	border: 1px solid #BB7D57;
 }
+
+/**
+ * Changes in Payment Options
+ *
+ * @since 1.0
+ */
+.payment-box{
+width: 35%;
+}
+#image-button{
+padding: 0px 0px 0px 100px;
+}
