@@ -35,7 +35,7 @@ function capoeirajr_widgets_init() {
 	$bavotasan_theme_options = bavotasan_theme_options();
 
 	register_sidebar( array(
-		'name' => __( 'Paypal area', 'arcade' ),
+		'name' => __( 'Payment Area', 'arcade' ),
 		'id' => 'payment-page-area',
 		'description' => __( 'Area on the payment page designed specifically for pay options buttons. Add at least one widget to make it appear.', 'arcade' ),
 		'before_widget' => '<aside id="%1$s" class="payment-widget col-md-3 %2$s">',

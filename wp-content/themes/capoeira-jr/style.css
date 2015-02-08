@@ -179,6 +179,14 @@ color: #ffffff;
 background-color: #02843D;
 }
 
+/*Included Social Icons on Menu*/
+header nav .facebook {
+    background: url("library/images/icons-facebook.png") no-repeat scroll 0% 0% transparent;
+    text-indent: -9999px;
+    white-space: nowrap;
+    height: 32px;
+    width: 32px;
+}
 
 /**
  * Changes in Pages
