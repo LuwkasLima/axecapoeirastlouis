@@ -162,11 +162,6 @@ background-color: #FFFFFF;
 color: #FFFFFF;
 }
 
-/*Removes margin from the collapsed menu*/
-.navbar-nav {
-margin: 0px -15px;
-}
-
 /*Changes color of the small arrow of the dropdown menu to white*/
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
 border-top-color: #FFFFFF;
