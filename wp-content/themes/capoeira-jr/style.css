@@ -174,14 +174,56 @@ color: #ffffff;
 background-color: #02843D;
 }
 
-/*Included Social Icons on Menu*/
-header nav .facebook {
-    background: url("library/images/icons-facebook.png") no-repeat scroll 0% 0% transparent;
-    text-indent: -9999px;
-    white-space: nowrap;
-    height: 32px;
-    width: 32px;
+/*Modify color for social buttons at Menu*/
+#menu-social {
+  margin-top: 3px;
+  padding: 0 15px;
+  overflow: hidden; 
+  float: right;
 }
+  @media (max-width: 768px) {
+    #menu-social {
+      float: none;
+      margin-bottom: 10px;
+      } 
+    #menu-social ul li {
+    	margin-bottom: 0;
+    	padding-left: 0 }
+  }
+  #menu-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    #menu-social ul li {
+      display: inline-block;
+      position: relative; 
+      margin-top: 2px}
+      #menu-social ul li a {
+        color: #02843D;
+        }
+		#menu-social ul li a:before {
+          -moz-border-radius: 20px;
+          -webkit-border-radius: 20px;
+          border-radius: 20px;
+          border: 3px solid;
+          border-color: #02843d;
+          content: '\f007';
+          float: left;
+          text-align: center;
+          margin: 0 0 0 0px;
+          font-family: FontAwesome;
+          font-size: 25px;
+          background: #FFC815;
+          width: 40px;
+          height: 40px;
+          line-height: 37px; 
+		}
+			#menu-social ul li a:hover {
+          	color: #FFC815; 
+      		}
+          		#menu-social ul li a:hover:before {
+            	background: #02843D; 
+        		}
 
 /**
  * Changes in Pages
