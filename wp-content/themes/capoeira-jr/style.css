@@ -177,7 +177,7 @@ background-color: #02843D;
 /*Modify color for social buttons at Menu*/
 #menu-social {
   margin-top: 3px;
-  padding: 0 15px;
+  padding: 0 15px 0 0;
   overflow: hidden; 
   float: right;
 }
@@ -185,10 +185,13 @@ background-color: #02843D;
     #menu-social {
       float: none;
       margin-bottom: 10px;
+      margin-left: 100px;
       } 
     #menu-social ul li {
     	margin-bottom: 0;
-    	padding-left: 0 }
+    	padding-left: 0;
+		margin-left: 0;
+    }
   }
   #menu-social ul {
     list-style: none;

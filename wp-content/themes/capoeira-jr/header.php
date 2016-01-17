@@ -46,9 +46,12 @@ $space_class = '';
 					$menu_class = ( is_rtl() ) ? ' navbar-right' : '';
 					wp_nav_menu( array( 'theme_location' => 'primary', 'container' => '', 'menu_class' => 'nav navbar-nav' . $menu_class, 'fallback_cb' => 'bavotasan_default_menu' ) );
 					?>
-					<div id="menu-social" class="nav navbar-nav">
+					<div id="menu-social" class="nav navbar-nav"><!-- #Menu-Social -->
 						<ul id="menu-social">
-							<li id="menu-social">
+							<li id="menu-social"><!-- #Twitter -->
+								<a href="https://twitter.com/AxeStLouis" target="_blank"></a>
+							</li>
+							<li id="menu-social"><!-- #Facebook -->
 								<a href="https://www.facebook.com/Grupo-Ax%C3%A9-Capoeira-St-Louis-170067556387014/" target="_blank"></a>
 							</li>
 						</ul>
